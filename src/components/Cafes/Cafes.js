@@ -20,7 +20,6 @@ class Cafes extends Component {
            Address: {cafe.address} <br />
            Contact: {cafe.phone} <br />
         </p>
-        <a href="/filter" className={classes.button1}>Find More</a>
       </div>
     )
   }

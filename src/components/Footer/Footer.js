@@ -4,9 +4,9 @@ import classes from './Footer.module.css';
 
 const headerItems = () => (
   <div className={classes.footerItems}>
-    <p> 24 Azatutyan Ave, Yerevan, Armenia <br />
-        +374 11 900 901 <br />
-        hello@staff.am</p>
+    <p> 40 Marshal Baghramyan Ave <br />
+        +374 10 288 888 <br />
+        info@harissa.am</p>
     <p> COPYRIGHT 2021 ALL RIGHTS RESERVED. </p>
   </div>
 )
