@@ -5,6 +5,7 @@ import MissionItems from '../../../components/Mission/MissionItems';
 import About from '../../../components/About/About';
 import Footer from '../../../components/Footer/Footer.js';
 import Text from '../../../components/Text/Text.js';
+import Search from '../../../components/Search/Search.js';
 import backImg from '../../../assets/backImg.jpeg';
 import classes from '../Main.module.css';
 
@@ -15,6 +16,7 @@ const mainItems = () => (
       <div className={classes.MainItems}>
       <Text head="WELCOME TO HARISSA"
             par="Here in Harissa we'll help you find the best restaurants and cafes located in Yerevan. Check their menus, watch their reviews and RESERVE a table for the evening." />
+      <Search />
       </div>
       <img src={backImg}
            alt="logo"

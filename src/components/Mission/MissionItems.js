@@ -9,7 +9,7 @@ const missionItems = () => (
       <img src={mission} />
     </div>
     <div>
-    <Text head="Our Mission" par="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software" />
+    <Text head="Our Mission" par="HARRISSA has a mission of providing you with the best choices of cafes and restaurants situated in Yerevan. With us you will spend your breakfast, lunch and dinner in the most delicious, aesthetic and suitable for you locations of Yerevan." />
     </div>
   </div>
 )

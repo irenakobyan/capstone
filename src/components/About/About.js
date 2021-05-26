@@ -9,10 +9,10 @@ import contact from '../../assets/contact.png';
 
 const aboutUs = () => (
   <div className={classes.AboutUs}>
-      <Text head="Who We Are" par="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software" />
+      <Text head="Who We Are" par="HARRISSA is a team of four enthusiastic and motivated young women. We care about your time spent well and productive. As of being students and employees of IT companies in the difficult times of COVID-19, we've understood that choosing correct location for studying, working or meeting partners is the key to success. We've decided to create the platform HARRISSA to allow people filter and access the cafes and restaurants appropriate for them." />
     <div className={classes.boxes}>
-      <Box par="Log In or Create an Account" but="Log In" img={user} link="/login" />
-      <Box par="Search for the best option and reserve your seat NOW!" but="Filter the restaurants and cafes" img={furniture} link="/filter" />
+      <Box par="Log In or Create an Account and Start filtering NOW" but="Log In" img={user} link="/login" />
+      <Box par="Search for the best option and reserve your seat NOW!" but="Filter" img={furniture} link="/filter" />
       <Box par="Contact Us anytime if you have additional questions" but="Contact Us" img={contact} link="/contact" />
     </div>
   </div>

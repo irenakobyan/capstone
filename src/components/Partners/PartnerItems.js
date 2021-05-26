@@ -1,19 +1,19 @@
 import React from 'react';
 import Text from '../Text/Text.js';
-import { data } from "../../data.js";
+import { cafe } from "../../data.json";
 import classes from './PartnerItems.module.css';
 
 const partnerItems = () => (
 <div  className={classes.PartnerAll}>
   <Text head="Our Partner Restaurtants and Cafes" par="We work with more than 50 restaurants and cafes located in Yerevan!" />
    <div className={classes.PartnerItems}>
-        {data.slice(0,3).map(data => (
+        {cafe.slice(0,3).map(cafe => (
           <div className={classes.eachBox}>
-            <img src={data.logo} style={{width: '50%'}}/>
-            <p>{data.name} <br />
-               Review: <b>{data.review}</b> <br />
-               Address: {data.address} <br />
-               Contact: {data.phone}</p>
+            <img src={cafe.logo} style={{width: '50%'}}/>
+            <p>{cafe.name} <br />
+               Review: <b>{cafe.review}</b> <br />
+               Address: {cafe.address} <br />
+               Contact: {cafe.phone}</p>
           </div>
         ))}
     </div>

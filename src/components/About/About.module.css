@@ -1,6 +1,6 @@
 .AboutUs {
   text-align: center;
-  width: 60%;
+  width: 70%;
   margin: auto;
   font-size: 1.3em;
   padding: 2em;
@@ -9,6 +9,7 @@
 
 .boxes {
   display: flex;
+
 }
 
 .boxes div {

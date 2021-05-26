@@ -1,10 +1,8 @@
 .cafeItems {
   display: grid;
  grid-template-columns: auto auto auto;
- padding: 5%;
  text-align: center;
- width: 80%;
- margin: auto;
+ width: 70%;
 }
 
 .cafeItems div {
@@ -15,6 +13,11 @@
 
 .cafeItems img {
   width: 20%;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 a.button1{

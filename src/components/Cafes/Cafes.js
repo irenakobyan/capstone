@@ -1,20 +1,29 @@
 import React from 'react';
 import Box from '../About/Box/Box';
+import Search from '../Search/Search.js';
+import Filter from './Filter/Filter.js';
 import classes from './Cafes.module.css';
-import { data } from "../../data.js";
+import { cafe } from "../../data.json";
 
 const cafes = () => (
+  <div>
+    <Search />
+    <div className={classes.filter}>
+      <Filter />
   <div className={classes.cafeItems}>
-    {data.map(data => (
+    {cafe.map(cafe => (
       <div>
-        <img src={data.logo} style={{width: '50%'}}/>
-        <p>{data.name} <br />
-           Review: <b>{data.review}</b> <br />
-           Address: {data.address} <br />
-           Contact: {data.phone}</p>
+        <img src={cafe.logo} style={{width: '50%'}}/>
+        <p>{cafe.name} <br />
+           Review: <b>{cafe.review}</b> <br />
+           Address: {cafe.address} <br />
+           Contact: {cafe.phone} <br />
+        </p>
         <a href="/filter" className={classes.button1}>Reserve</a>
       </div>
     ))}
+    </div>
+  </div>
   </div>
 )
 
